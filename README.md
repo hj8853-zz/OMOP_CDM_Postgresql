@@ -10,7 +10,7 @@ OMOP_CDM Data를 Postgresql 13.1 Version을 사용하여 Table 생성
 3. `\i OMOP CDM postgresql ddl.txt` 실행
 4. `\i OMOP CDM postgresql pk indexes.txt` 실행
 5. `\i OMOP CDM postgresql constraints.txt` 실행
-6. `/PostgreSQL/SQL` 경로로 접속
+6. `/PostgreSQL/SQL` 경로로 접속 (가지고 있는 Dataset의 경로에 맞게 코드 수정 필요)
 7. PostgreSQL 실행
 8. `\i synthea_cdm_csv_load.sql` 실행
 
