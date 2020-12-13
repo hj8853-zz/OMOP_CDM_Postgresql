@@ -1,0 +1,11 @@
+ALTER TABLE concept ADD CONSTRAINT xpk_concept PRIMARY KEY (concept_id);
+
+ALTER TABLE condition_occurrence ADD CONSTRAINT xpk_condition_occurrence PRIMARY KEY (condition_occurrence_id);
+
+ALTER TABLE death ADD CONSTRAINT xpk_death PRIMARY KEY (person_id);
+
+ALTER TABLE drug_exposure ADD CONSTRAINT xpk_drug_exposure PRIMARY KEY (drug_exposure_id);
+
+ALTER TABLE person ADD CONSTRAINT xpk_person PRIMARY KEY (person_id);
+
+ALTER TABLE visit_occurrence ADD CONSTRAINT xpk_visit_occurrence PRIMARY KEY (visit_occurrence_id);
